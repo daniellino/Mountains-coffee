@@ -4,7 +4,7 @@
 
 ## Aabout the project
 
-This is simple landing page for Mountains Coffee website.
+This is a simple landing page for Mountains Coffee website.
 
 ## Project goal
 
