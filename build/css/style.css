@@ -49,5 +49,37 @@ table {
   -webkit-box-sizing: border-box;
           box-sizing: border-box; }
 
+a {
+  text-decoration: none;
+  text-transform: uppercase; }
+
 body {
-  background: blue; }
+  font-family: 'Montserrat', sans-serif; }
+
+.header-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  background: #1cacc5; }
+  .header-container nav ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    width: 35rem; }
+    .header-container nav ul a {
+      color: white; }
+
+.logo img {
+  width: 7rem; }
+
+* {
+  font-size: 16px; }
+
+h1 {
+  font-size: 2rem;
+  font-weight: 600;
+  color: white; }

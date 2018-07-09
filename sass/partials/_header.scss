@@ -1,0 +1,20 @@
+.header-container{
+    display: flex;
+    justify-content: space-around;
+    background: rgb(28, 172, 197);
+    nav ul{
+        display: flex;
+        justify-content: space-around;
+        width: 35rem;
+        a{
+            color: white;
+        }
+    }
+}
+
+
+.logo{
+    img{
+        width: 7rem;
+    }
+}

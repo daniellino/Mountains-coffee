@@ -31,7 +31,7 @@ gulp.task('lint', function() { //gulp task for lint
 
 gulp.task("sass", function() { //gulp task for compiling sass files to css files
     return gulp
-        .src("./sass/style.scss")
+        .src("./sass/**/*.scss", { sourcemaps: true })
         .pipe(sass())
         .pipe(
             autoprefixer({
@@ -70,7 +70,7 @@ gulp.task("browser-sync", function(done) {
 
 gulp.task("watch", function(done) { //taking care of changes to sass and js files
     gulp.watch("js/*.js", gulp.series("scripts"));
-    gulp.watch("sass/*.scss", gulp.series("sass"));
+    gulp.watch("./sass/**/*.scss", gulp.series("sass"));
 
     done();
 });

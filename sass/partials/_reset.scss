@@ -48,8 +48,12 @@ table {
 }
 
 *{
-    box-sizing: border-box;
+	box-sizing: border-box;
+}
+a{
+	text-decoration: none;
+	text-transform: uppercase;
 }
 body{
-    background: blue;
+	font-family: 'Montserrat', sans-serif;
 }
