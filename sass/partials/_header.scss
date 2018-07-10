@@ -1,20 +1,41 @@
 .header-container{
     display: flex;
     justify-content: space-around;
-    background: rgb(28, 172, 197);
+    align-items: center;
+    background: rgb(180, 147, 85);
+    height: 80px;
+    h1{
+        font-family: 'Great Vibes', cursive;
+
+        // font-family: 'Merriweather', serif;
+        // font-family: 'Montserrat', sans-serif;
+    }
     nav ul{
         display: flex;
         justify-content: space-around;
         width: 35rem;
         a{
             color: white;
+            &:hover{
+                transition: all 0.3s ease-in-out;
+                color: rgba(110, 8, 8, 0.945);
+                // background: rgb(228, 204, 126);
+                // filter: blur(10px);
+                // opacity: .1;
+            }
         }
     }
 }
 
 
 .logo{
+    // &:hover{
+    //     filter: blur(1px);
+    //     transition: all 0.3s ease-in-out;
+    //     background: rgb(228, 204, 126);
+    // }
+    margin-top: .1rem;
     img{
-        width: 7rem;
+        width: 6rem;
     }
 }

@@ -9,6 +9,7 @@ ehthumbs.db
 *[Tt]humbs.db
 *.Trashes
 .vscode
+desktop.ini
 # Ignore packages #
 # =============== #
 *.7z
