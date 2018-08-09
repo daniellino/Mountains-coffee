@@ -60,22 +60,27 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -ms-flex-pack: distribute;
       justify-content: space-around;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   background: #b49355;
-  height: 80px; }
+  height: 256px; }
   .header-container h1 {
-    font-family: 'Great Vibes', cursive; }
+    font-family: 'Great Vibes', cursive;
+    margin: 2rem 0; }
   .header-container nav ul {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-pack: distribute;
         justify-content: space-around;
-    width: 35rem; }
+    width: 25rem; }
     .header-container nav ul a {
       color: white; }
       .header-container nav ul a:hover {
@@ -100,12 +105,12 @@ h1 {
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(0, 0, 0, 0.25)), to(rgba(0, 0, 0, 0.25))), url(../../assets/images/samuel-ferrara-412633-unsplash.jpg) no-repeat center;
   background: linear-gradient(180deg, rgba(0, 0, 0, 0.25) 0, rgba(0, 0, 0, 0.25)), url(../../assets/images/samuel-ferrara-412633-unsplash.jpg) no-repeat center;
   background-size: cover, 100%, cover;
-  height: 600px; }
+  height: 255px; }
   .hero-image h1 {
     font-family: 'Merriweather', serif;
     text-align: center;
-    font-size: 4rem;
-    line-height: 35rem; }
+    font-size: 2rem;
+    line-height: 15rem; }
 
 .jquery-test {
   background: red;

@@ -1,16 +1,16 @@
-.hero-image{
+.hero-image {
     background: linear-gradient(180deg, rgba(0, 0, 0, .25) 0, rgba(0, 0, 0, .25)), url(../../assets/images/samuel-ferrara-412633-unsplash.jpg) no-repeat center;
     background-size: cover, 100%, cover;
-    height: 600px;
-    // background-repeat: no-repeat, repeat-x;
-    h1{
-       font-family: 'Merriweather', serif;
-       text-align: center;
-       font-size: 4rem;
-       line-height: 35rem;
+    height: 255px; // background-repeat: no-repeat, repeat-x;
+    h1 {
+        font-family: 'Merriweather', serif;
+        text-align: center;
+        font-size: 2rem;
+        line-height: 15rem;
     }
 }
-.jquery-test{
+
+.jquery-test {
     background: red;
     width: 300px;
 }
