@@ -80,7 +80,8 @@ body {
     display: flex;
     -ms-flex-pack: distribute;
         justify-content: space-around;
-    width: 25rem; }
+    width: 25rem;
+    margin-bottom: 1.5rem; }
     .header-container nav ul a {
       color: white; }
       .header-container nav ul a:hover {
@@ -89,7 +90,7 @@ body {
         color: rgba(110, 8, 8, 0.945); }
 
 .logo {
-  margin-top: .1rem; }
+  margin-top: 1.5rem; }
   .logo img {
     width: 6rem; }
 
@@ -113,5 +114,5 @@ h1 {
     line-height: 15rem; }
 
 .jquery-test {
-  background: red;
-  width: 300px; }
+  background: #f3d840;
+  width: 200px; }

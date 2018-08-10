@@ -1,6 +1,5 @@
 $(document).ready(function() {
     $('.jquery-test').click(function() {
-        $('.jquery-test').width(600);
+        $('.jquery-test').width(350);
     });
-    console.log('heeeyyy jquery works!!!');
 });
